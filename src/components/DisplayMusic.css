@@ -1,0 +1,50 @@
+.displayMusic {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 25rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border: 1px solid #000;
+  background-color: #e9eff4;
+}
+.titleName {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titleName h4 {
+  color: red;
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+}
+.titleName h2 {
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+.imgSong {
+  width: 70%;
+  height: 80%;
+  clip-path: circle(45%);
+  object-fit: cover;
+}
+.iconClickMusic {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.iconPlayCircle {
+  color: red;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.progressSong {
+  height: 10%;
+  width: 100%;
+}
