@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from "react";
-import "./ItemMusic.css";
 import { MoreHorizontal } from "feather-icons-react";
-import axios from "axios";
-import DisplayMusic from "./DisplayMusic";
+import React, { useState } from "react";
+import "./ItemMusic.css";
 
 const ItemMusic = ({
   imgLink,
@@ -11,7 +9,7 @@ const ItemMusic = ({
   handleGetDataFromItem,
   checked,
 }) => {
-  const [choose, setChoose] = useState(null);
+  const [choose] = useState(null);
 
   const handleClick = () => {
     handleGetDataFromItem();
